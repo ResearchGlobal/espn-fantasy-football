@@ -1,4 +1,4 @@
-from typing import TypedDict, List, Dict, Any, TypeAlias
+from typing import TypedDict, List, Dict, Any, TypeAlias, Literal
 
 # Define type for notification settings
 class NotificationSetting(TypedDict):
@@ -76,7 +76,7 @@ class TransactionCounter(TypedDict):
 ValuesByStat: TypeAlias = Dict[int, int]
 
 # Define type for teams
-class Team():
+class TeamV2(TypedDict):
     abbrev: str
     currentProjectedRank: int
     divisionId: int
@@ -111,7 +111,7 @@ class LeagueData(TypedDict):
     segmentId: int
     settings: Dict[str, Any]
     status: Dict[str, Any]
-    teams: List[Team]
+    teams: List[TeamV2]
     
 class PlayerAuctionData(TypedDict):
     playerId: int
@@ -120,9 +120,14 @@ class PlayerAuctionData(TypedDict):
     playerLast: str
     playerSuffix: str | None
     bidAmount: int
+    proTeam: str
+    position: str
     nominatingTeamId: int
     memberId: str
     teamId: int
+    teamName: str
+    teamOwner: str
+    teamAbbrev: str
     keeper: bool
     reservedForKeeper: bool
 
@@ -132,4 +137,29 @@ class DraftResults(TypedDict):
     teamAbbrev: str
     teamId: int
     
-class DraftResultsByYear(TypedDict): Dict[int, DraftResults]
+class DraftResultsByYear(TypedDict):
+    Dict[int, DraftResults]
+
+class TeamMapDetail(TypedDict):
+    abbrev: str
+    teamId: int
+    name: str
+    owner: str
+
+class TeamMap(TypedDict):
+    Dict[int, TeamMapDetail]
+    
+
+Position: TypeAlias = Literal["QB","RB","WR","TE","D/ST","K"]
+
+class PositionData(TypedDict):
+    totalBudgetSpent: int
+    numberOfPicks: int
+
+class GmData(TypedDict):
+    Dict[Position,PositionData]
+    
+class GmDataMap(TypedDict):
+    Dict[str,GmData]
+
+    
