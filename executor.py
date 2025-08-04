@@ -15,7 +15,7 @@ from league.constant import teams_2024
 
 from espn_api.football import League
 
-input_filename = "output/draft-detail-2024.json"
+input_filename_2024 = "output/draft-detail-2024.json"
 output_filename = "output/test.json"
 
 league = League(
@@ -29,27 +29,19 @@ playerMap = league.player_map
 teams = league.teams
 team = teams[0]
 
-with open(input_filename, "r") as file:
-    draft_json: Dict[str, Any] = json.load(file)
+with open(input_filename_2024, "r") as file:
+    draft_json_2024: Dict[str, Any] = json.load(file)
 
+with open(input_filename_2024, "r") as file:
+    draft_json_2024: Dict[str, Any] = json.load(file)
 
-def scaffold_gm_data() -> GmDataMap:
-    base = {}
-    for key in teams_2024:
-        base[teams_2024.get(key).get("owner")] = {
-            "QB": {"totalBudgetSpent": 0, "numberOfPicks": 0}
-        }
-    return base
-
-
-gmDataMap = scaffold_gm_data()
 
 
 def safe_get(lst: list, index: int, default=None) -> str | None:
     return lst[index] if 0 <= index < len(lst) else default
 
 
-def extract_draft_data(source: LeagueData) -> DraftResults:
+def extract_draft_data(source: LeagueData) -> List[PlayerAuctionData]:
     draftDetails = source.get("draftDetail")
     picks = draftDetails.get("picks")
     draftResults = [extract_player_auction_data(pick) for pick in picks]
@@ -68,13 +60,7 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
     teamId = pick.get("teamId")
 
     teamOwner = teams_2024.get(teamId).get("owner")
-
-    # gmDataMap[teamOwner] = {
-    #   **gmDataMap[teamOwner],
-    #   [position]: {
-    #     totalBugde
-    #   }
-    # }
+    bidAmount = pick.get("bidAmount")
 
     return {
         "playerId": playerId,
@@ -84,7 +70,7 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
         "playerSuffix": suffix,
         "proTeam": proTeam,
         "position": position,
-        "bidAmount": pick.get("bidAmount"),
+        "bidAmount": bidAmount,
         "nominatingTeamId": pick.get("nominatingTeamId"),
         "memberId": pick.get("memberId"),
         "teamId": teamId,
@@ -96,12 +82,35 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
     }
 
 
-# pickResults = extract_draft_data(draft_json)
+pickResults = extract_draft_data(draft_json_2024)
 
-gm = scaffold_gm_data()
+def scaffold_gm_data(pickResults: List[PlayerAuctionData]) -> GmDataMap:
+    base = {}
+    for key in teams_2024:
+        base[teams_2024.get(key).get("owner")] = {
+            "QB": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+            "RB": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+            "WR": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+            "TE": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+            "D/ST": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+            "K": {"totalBudgetSpent": 0, "numberOfPicks": 0},
+        }
+    
+    for pick in pickResults:
+        owner = pick.get('teamOwner')
+        position = pick.get('position')
+        bidAmount = pick.get('bidAmount')
+        base[owner][position] = {
+          'totalBudgetSpent': base[owner][position]['totalBudgetSpent'] + bidAmount,
+          'numberOfPicks': base[owner][position]['numberOfPicks'] + 1
+        }
+    
+    return base
 
-print(gm)
+gmDataMap = scaffold_gm_data(pickResults)
+
+print(gmDataMap)
 
 
-# with open(output_filename, 'r+') as file:
-#   json.dump({'2024': {'picks': pickResults}}, file, indent=2)
+with open(output_filename, 'r+') as file:
+  json.dump({'2024': {'picks': pickResults, 'teamByTeam': gmDataMap}}, file, indent=2)

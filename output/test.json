@@ -3025,6 +3025,320 @@
         "keeper": false,
         "reservedForKeeper": false
       }
-    ]
+    ],
+    "teamByTeam": {
+      "Jeremy Kaplan": {
+        "QB": {
+          "totalBudgetSpent": 3,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 109,
+          "numberOfPicks": 2
+        },
+        "WR": {
+          "totalBudgetSpent": 84,
+          "numberOfPicks": 7
+        },
+        "TE": {
+          "totalBudgetSpent": 2,
+          "numberOfPicks": 2
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        }
+      },
+      "Ben Eilender": {
+        "QB": {
+          "totalBudgetSpent": 27,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 68,
+          "numberOfPicks": 4
+        },
+        "WR": {
+          "totalBudgetSpent": 98,
+          "numberOfPicks": 5
+        },
+        "TE": {
+          "totalBudgetSpent": 3,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 2,
+          "numberOfPicks": 1
+        }
+      },
+      "Adam Oxman": {
+        "QB": {
+          "totalBudgetSpent": 5,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 35,
+          "numberOfPicks": 2
+        },
+        "WR": {
+          "totalBudgetSpent": 120,
+          "numberOfPicks": 8
+        },
+        "TE": {
+          "totalBudgetSpent": 30,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 6,
+          "numberOfPicks": 1
+        }
+      },
+      "David Behmoaras": {
+        "QB": {
+          "totalBudgetSpent": 27,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 45,
+          "numberOfPicks": 4
+        },
+        "WR": {
+          "totalBudgetSpent": 109,
+          "numberOfPicks": 3
+        },
+        "TE": {
+          "totalBudgetSpent": 8,
+          "numberOfPicks": 3
+        },
+        "D/ST": {
+          "totalBudgetSpent": 10,
+          "numberOfPicks": 2
+        },
+        "K": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        }
+      },
+      "Eric Jared": {
+        "QB": {
+          "totalBudgetSpent": 20,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 71,
+          "numberOfPicks": 4
+        },
+        "WR": {
+          "totalBudgetSpent": 96,
+          "numberOfPicks": 6
+        },
+        "TE": {
+          "totalBudgetSpent": 11,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        }
+      },
+      "Tyler Karp": {
+        "QB": {
+          "totalBudgetSpent": 4,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 114,
+          "numberOfPicks": 6
+        },
+        "WR": {
+          "totalBudgetSpent": 63,
+          "numberOfPicks": 4
+        },
+        "TE": {
+          "totalBudgetSpent": 8,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 2,
+          "numberOfPicks": 1
+        }
+      },
+      "Alex Loewenstein": {
+        "QB": {
+          "totalBudgetSpent": 5,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 48,
+          "numberOfPicks": 3
+        },
+        "WR": {
+          "totalBudgetSpent": 124,
+          "numberOfPicks": 5
+        },
+        "TE": {
+          "totalBudgetSpent": 14,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 4,
+          "numberOfPicks": 2
+        },
+        "K": {
+          "totalBudgetSpent": 3,
+          "numberOfPicks": 1
+        }
+      },
+      "Zach Eitan": {
+        "QB": {
+          "totalBudgetSpent": 11,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 132,
+          "numberOfPicks": 5
+        },
+        "WR": {
+          "totalBudgetSpent": 42,
+          "numberOfPicks": 4
+        },
+        "TE": {
+          "totalBudgetSpent": 7,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 3,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        }
+      },
+      "Brian Fisher": {
+        "QB": {
+          "totalBudgetSpent": 6,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 97,
+          "numberOfPicks": 6
+        },
+        "WR": {
+          "totalBudgetSpent": 72,
+          "numberOfPicks": 3
+        },
+        "TE": {
+          "totalBudgetSpent": 14,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 6,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 2,
+          "numberOfPicks": 1
+        }
+      },
+      "Sam Schlechter": {
+        "QB": {
+          "totalBudgetSpent": 10,
+          "numberOfPicks": 1
+        },
+        "RB": {
+          "totalBudgetSpent": 80,
+          "numberOfPicks": 6
+        },
+        "WR": {
+          "totalBudgetSpent": 83,
+          "numberOfPicks": 4
+        },
+        "TE": {
+          "totalBudgetSpent": 23,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 3,
+          "numberOfPicks": 1
+        }
+      },
+      "Brandon Mayer": {
+        "QB": {
+          "totalBudgetSpent": 29,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 93,
+          "numberOfPicks": 4
+        },
+        "WR": {
+          "totalBudgetSpent": 74,
+          "numberOfPicks": 5
+        },
+        "TE": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 2,
+          "numberOfPicks": 1
+        }
+      },
+      "Dylan Brian": {
+        "QB": {
+          "totalBudgetSpent": 11,
+          "numberOfPicks": 2
+        },
+        "RB": {
+          "totalBudgetSpent": 32,
+          "numberOfPicks": 5
+        },
+        "WR": {
+          "totalBudgetSpent": 150,
+          "numberOfPicks": 4
+        },
+        "TE": {
+          "totalBudgetSpent": 5,
+          "numberOfPicks": 1
+        },
+        "D/ST": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        },
+        "K": {
+          "totalBudgetSpent": 1,
+          "numberOfPicks": 1
+        }
+      }
+    }
   }
 }
