@@ -1,3 +1,20 @@
+
+*.egg-info
+.eggs/
+*.pot
+*.py[co]
+**/*.pyc
+.tox/
+__pycache__
+.env
+*~
+venv/
+.coverage
+build
+dist
+env
+coverage*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
