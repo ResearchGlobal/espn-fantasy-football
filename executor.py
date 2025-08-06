@@ -1,4 +1,5 @@
 import json
+import csv
 from typing import Any, Dict, List
 from league.draft_types import (
     LeagueData,
@@ -17,6 +18,9 @@ from espn_api.football import League
 
 input_filename_2024 = "output/draft-detail-2024.json"
 output_filename = "output/test.json"
+csv_picks_filename = "output/test.csv"
+csv_teams_filename = "output/team-map.csv"
+csv_gmdata_filename = "output/gm-data.csv"
 
 league = League(
     league_id=1809145,
@@ -36,7 +40,6 @@ with open(input_filename_2024, "r") as file:
     draft_json_2024: Dict[str, Any] = json.load(file)
 
 
-
 def safe_get(lst: list, index: int, default=None) -> str | None:
     return lst[index] if 0 <= index < len(lst) else default
 
@@ -52,13 +55,15 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
     playerId = pick.get("playerId")
     proTeam = league.player_info(None, playerId).proTeam
     position = league.player_info(None, playerId).position
+    posRank = league.player_info(None, playerId).posRank
+    totalPoints = league.player_info(None, playerId).total_points
+    avgPoints = league.player_info(None, playerId).avg_points
     name: str = playerMap.get(playerId)
     nameSplit = name.split(" ")
     first = nameSplit[0]
     last = nameSplit[1]
     suffix = safe_get(nameSplit, 2)
     teamId = pick.get("teamId")
-
     teamOwner = teams_2024.get(teamId).get("owner")
     bidAmount = pick.get("bidAmount")
 
@@ -70,6 +75,9 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
         "playerSuffix": suffix,
         "proTeam": proTeam,
         "position": position,
+        "posRank": posRank,
+        "totalPoints": totalPoints,
+        "avgPoints": avgPoints,
         "bidAmount": bidAmount,
         "nominatingTeamId": pick.get("nominatingTeamId"),
         "memberId": pick.get("memberId"),
@@ -84,6 +92,7 @@ def extract_player_auction_data(pick: DraftPick) -> PlayerAuctionData:
 
 pickResults = extract_draft_data(draft_json_2024)
 
+
 def scaffold_gm_data(pickResults: List[PlayerAuctionData]) -> GmDataMap:
     base = {}
     for key in teams_2024:
@@ -95,22 +104,86 @@ def scaffold_gm_data(pickResults: List[PlayerAuctionData]) -> GmDataMap:
             "D/ST": {"totalBudgetSpent": 0, "numberOfPicks": 0},
             "K": {"totalBudgetSpent": 0, "numberOfPicks": 0},
         }
-    
+
     for pick in pickResults:
-        owner = pick.get('teamOwner')
-        position = pick.get('position')
-        bidAmount = pick.get('bidAmount')
+        owner = pick.get("teamOwner")
+        position = pick.get("position")
+        bidAmount = pick.get("bidAmount")
         base[owner][position] = {
-          'totalBudgetSpent': base[owner][position]['totalBudgetSpent'] + bidAmount,
-          'numberOfPicks': base[owner][position]['numberOfPicks'] + 1
+            "totalBudgetSpent": base[owner][position]["totalBudgetSpent"] + bidAmount,
+            "numberOfPicks": base[owner][position]["numberOfPicks"] + 1,
         }
-    
+
     return base
+
 
 gmDataMap = scaffold_gm_data(pickResults)
 
-print(gmDataMap)
+# print(gmDataMap)
 
 
-with open(output_filename, 'r+') as file:
-  json.dump({'2024': {'picks': pickResults, 'teamByTeam': gmDataMap}}, file, indent=2)
+# with open(output_filename, 'r+') as file:
+#   json.dump({'2024': {'picks': pickResults, 'teamByTeam': gmDataMap}}, file, indent=2)
+
+# with open(csv_picks_filename, 'w', newline='') as team_file:
+#   writer = csv.writer(team_file)
+#   writer.writerow([
+#     "playerId",
+#     "playerName",
+#     "playerFirst",
+#     "playerLast",
+#     "playerSuffix",
+#     "proTeam",
+#     "position",
+#     "posRank",
+#     "totalPoints",
+#     "avgPoints",
+#     "bidAmount",
+#     "nominatingTeamId",
+#     "memberId",
+#     "teamId",
+#     "teamName",
+#     "teamOwner",
+#     "teamAbbrev",
+#     "keeper",
+#     "reservedForKeeper",
+#   ])
+#   for pick in pickResults:
+#     writer.writerow(pick.values())
+
+
+# with open(csv_teams_filename, 'w', newline='') as team_file:
+#   writer = csv.writer(team_file)
+#   writer.writerow([
+#     "abbrev","teamId","name","owner"
+#   ])
+#   for team in teams_2024:
+#     writer.writerow(teams_2024[team].values())
+
+with open(csv_gmdata_filename, "w", newline="") as gm_data:
+    writer = csv.writer(gm_data)
+    writer.writerow(
+        [
+            "teamOwner",
+            "QB $ Spent",
+            "QB # Picks",
+            "RB $ Spent",
+            "RB # Picks",
+            "WR $ Spent",
+            "WR # Picks",
+            "TE $ Spent",
+            "TE # Picks",
+            "D/ST $ Spent",
+            "D/ST # Picks",
+            "K $ Spent",
+            "K # Picks",
+        ]
+    )
+    for gm in gmDataMap:
+        singleGmData: GmData = gmDataMap[gm]
+        row = [gm]
+        for pos in singleGmData:
+            posData: PositionData = singleGmData[pos]
+            row.append(posData.get("totalBudgetSpent"))
+            row.append(posData.get("numberOfPicks"))
+        writer.writerow(row)
