@@ -1,6 +1,6 @@
 from .draft_types import TeamMap
 
-teams_2024: TeamMap = {
+teams: TeamMap = {
     1: {'abbrev': 'KAPL', 'teamId': 1, 'name': '7th Floor Jew', 'owner': 'Jeremy Kaplan'},
     2: {'abbrev': 'BE', 'teamId': 2, 'name': 'Tyreek\'s Children', 'owner': 'Ben Eilender'},
     3: {'abbrev': 'OX', 'teamId': 3, 'name': 'Warm Pink Center', 'owner': 'Adam Oxman'},

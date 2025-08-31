@@ -1,0 +1,181 @@
+playerId,playerName,playerFirst,playerLast,playerSuffix,proTeam,position,posRank,totalPoints,avgPoints,bidAmount,nominatingTeamId,memberId,teamId,teamName,teamOwner,teamAbbrev,keeper,reservedForKeeper
+3068267,Austin Ekeler,Austin,Ekeler,,LAC,RB,2,308.8,19.3,36,0,,1,7th Floor Jew,Jeremy Kaplan,KAPL,True,False
+3886818,Myles Gaskin,Myles,Gaskin,,MIA,RB,26,149.1,8.77,10,0,,1,7th Floor Jew,Jeremy Kaplan,KAPL,True,False
+4038941,Justin Herbert,Justin,Herbert,,LAC,QB,2,380.76,22.4,10,0,,2,Tyreek's Children,Ben Eilender,BE,True,False
+4259545,D'Andre Swift,D'Andre,Swift,,DET,RB,19,177.9,13.68,22,0,,2,Tyreek's Children,Ben Eilender,BE,True,False
+3916387,Lamar Jackson,Lamar,Jackson,,BAL,QB,16,239.98,20.0,9,0,,3,Warm Pink Center,Adam Oxman,OX,True,False
+16813,Logan Thomas,Logan,Thomas,,WSH,TE,45,44.6,7.43,14,0,,3,Warm Pink Center,Adam Oxman,OX,True,False
+2976212,Stefon Diggs,Stefon,Diggs,,BUF,WR,7,234.0,13.76,24,0,,4,Patrick Mahomes Sucks,David Behmoaras,SUCK,True,False
+4241389,CeeDee Lamb,CeeDee,Lamb,,DAL,WR,18,193.3,12.08,15,0,,4,Patrick Mahomes Sucks,David Behmoaras,SUCK,True,False
+3925357,Calvin Ridley,Calvin,Ridley,,ATL,WR,105,55.6,11.12,28,0,,5,Michael Parish,Eric Jared,NNV,True,False
+16731,Brandin Cooks,Brandin,Cooks,,HOU,WR,20,186.8,11.68,9,0,,5,Michael Parish,Eric Jared,NNV,True,False
+4262921,Justin Jefferson,Justin,Jefferson,,MIN,WR,4,276.4,16.26,5,0,,6,Detroit lions,Tyler Karp,YFT,True,False
+4047650,DK Metcalf,DK,Metcalf,,SEA,WR,12,206.8,12.16,33,0,,6,Detroit lions,Tyler Karp,YFT,True,False
+4052042,James Robinson,James,Robinson,,JAX,RB,24,158.4,11.31,10,0,,7,The AndersonAccount,Alex Loewenstein,AAI,True,False
+14881,Russell Wilson,Russell,Wilson,,SEA,QB,15,242.82,17.34,12,0,,8,Puka and Rally,Zach Eitan,Boot,True,False
+4360294,Antonio Gibson,Antonio,Gibson,,WSH,RB,10,208.1,13.01,9,0,,8,Puka and Rally,Zach Eitan,Boot,True,False
+3932905,Diontae Johnson,Diontae,Johnson,,PIT,WR,9,220.9,13.81,13,0,,9,The Driving Crooners,Brian Fisher,Fish,True,False
+3917315,Kyler Murray,Kyler,Murray,,ARI,QB,10,300.48,21.46,10,0,,9,The Driving Crooners,Brian Fisher,Fish,True,False
+4045163,Miles Sanders,Miles,Sanders,,PHI,RB,45,104.2,8.68,19,0,,10,Mayer's a Bitch,Sam Schlechter,MAB,True,False
+4047646,A.J. Brown,A.J.,Brown,,TEN,WR,32,149.4,11.49,14,0,,11,Best Balls In The League,Brandon Mayer,MAYE,True,False
+4239993,Tee Higgins,Tee,Higgins,,CIN,WR,22,182.1,13.01,14,0,,12,Daddy Johnson,Dylan Brian,DADI,True,False
+4242335,Jonathan Taylor,Jonathan,Taylor,,IND,RB,1,353.1,20.77,34,0,,12,Daddy Johnson,Dylan Brian,DADI,True,False
+3055899,Harrison Butker,Harrison,Butker,,KC,K,12,137.0,8.56,1,3,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3040151,George Kittle,George,Kittle,,SF,TE,4,162.5,11.61,30,8,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3043078,Derrick Henry,Derrick,Henry,,TEN,RB,16,184.3,23.04,69,5,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+3116593,Dalvin Cook,Dalvin,Cook,,MIN,RB,15,189.3,14.56,73,1,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+3139477,Patrick Mahomes,Patrick,Mahomes,,KC,QB,4,361.66,21.27,27,2,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3929630,Saquon Barkley,Saquon,Barkley,,NYG,RB,32,128.1,9.85,62,10,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3051392,Ezekiel Elliott,Ezekiel,Elliott,,DAL,RB,6,228.56,13.44,60,7,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3042519,Aaron Jones,Aaron,Jones,,GB,RB,12,203.0,13.53,55,9,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+3117251,Christian McCaffrey,Christian,McCaffrey,,CAR,RB,39,109.0,15.57,74,11,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+3126486,Deebo Samuel,Deebo,Samuel,,SF,WR,2,300.46,18.78,8,4,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+3054850,Alvin Kamara,Alvin,Kamara,,NO,RB,8,211.2,16.25,69,6,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+15683,Justin Tucker,Justin,Tucker,,BAL,K,3,160.0,9.41,1,12,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3128720,Nick Chubb,Nick,Chubb,,CLE,RB,11,205.3,14.66,60,3,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+15847,Travis Kelce,Travis,Kelce,,KC,TE,2,216.8,13.55,51,8,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3116406,Tyreek Hill,Tyreek,Hill,,KC,WR,6,241.0,14.18,63,5,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+4241457,Najee Harris,Najee,Harris,,PIT,RB,4,263.7,15.51,53,1,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+3918298,Josh Allen,Josh,Allen,,BUF,QB,1,402.58,23.68,21,2,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3116385,Joe Mixon,Joe,Mixon,,CIN,RB,3,266.9,16.68,40,10,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3919596,Chris Carson,Chris,Carson,,SEA,RB,78,45.1,11.28,34,7,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+16800,Davante Adams,Davante,Adams,,GB,WR,3,282.8,17.68,64,9,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3049899,Younghoe Koo,Younghoe,Koo,,ATL,K,18,123.0,7.24,1,11,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+15795,DeAndre Hopkins,DeAndre,Hopkins,,ARI,WR,43,126.2,12.62,53,4,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+3124679,Jason Sanders,Jason,Sanders,,MIA,K,22,107.0,6.29,1,6,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+2974858,Kenny Golladay,Kenny,Golladay,,NYG,WR,84,70.6,5.04,17,12,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+4242214,Clyde Edwards-Helaire,Clyde,Edwards-Helaire,,KC,RB,40,108.1,10.81,46,3,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+2576925,Darren Waller,Darren,Waller,,LV,TE,18,106.0,9.64,32,8,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+3121422,Terry McLaurin,Terry,McLaurin,,WSH,WR,25,175.0,10.29,34,5,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+4035538,David Montgomery,David,Montgomery,,CHI,RB,21,174.0,13.38,34,1,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4036133,T.J. Hockenson,T.J.,Hockenson,,DET,TE,15,114.8,9.57,17,2,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+3119195,Chase Edmonds,Chase,Edmonds,,ARI,RB,35,121.8,10.15,21,10,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+4047365,Josh Jacobs,Josh,Jacobs,,LV,RB,14,199.0,13.27,34,7,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+15880,Robert Woods,Robert,Woods,,LAR,WR,49,114.7,12.74,25,9,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+15818,Keenan Allen,Keenan,Allen,,LAC,WR,14,204.8,12.8,39,11,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+2977187,Cooper Kupp,Cooper,Kupp,,LAR,WR,1,367.0,21.59,24,4,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+3116365,Mark Andrews,Mark,Andrews,,BAL,TE,1,247.6,14.56,20,6,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+-16027,Buccaneers D/ST,Buccaneers,D/ST,,TB,D/ST,6,141.0,8.29,3,12,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3051926,Gus Edwards,Gus,Edwards,,BAL,RB,0,0.0,0.0,30,3,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+4360248,Kyle Pitts,Kyle,Pitts,,ATL,TE,7,142.6,8.39,18,8,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+2976499,Amari Cooper,Amari,Cooper,,DAL,WR,27,168.5,11.23,30,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+16799,Allen Robinson II,Allen,Robinson,II,CHI,WR,86,68.0,5.67,36,1,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3059915,Kareem Hunt,Kareem,Hunt,,CLE,RB,48,99.0,12.38,18,2,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+16737,Mike Evans,Mike,Evans,,TB,WR,8,225.5,14.09,32,10,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+2577327,Tyler Lockett,Tyler,Lockett,,SEA,WR,13,204.9,12.81,29,7,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+13982,Julio Jones,Julio,Jones,,TEN,WR,92,64.9,6.49,19,9,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+3116165,Chris Godwin,Chris,Godwin,,TB,WR,17,193.4,13.81,26,11,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+16460,Adam Thielen,Adam,Thielen,,MIN,WR,28,166.3,12.79,31,4,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+3915416,DJ Moore,DJ,Moore,,CAR,WR,19,191.0,11.24,28,6,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+2574808,Robby Anderson,Robby,Anderson,,CAR,WR,50,112.0,6.59,13,12,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+4361579,Javonte Williams,Javonte,Williams,,DEN,RB,17,183.4,10.79,10,3,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4249087,Matt Gay,Matt,Gay,,LAR,K,5,157.0,9.24,1,8,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3128721,Sony Michel,Sony,Michel,,LAR,RB,30,135.8,7.99,5,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3120348,JuJu Smith-Schuster,JuJu,Smith-Schuster,,PIT,WR,137,27.3,5.46,18,1,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+-16002,Bills D/ST,Bills,D/ST,,BUF,D/ST,4,152.0,8.94,3,2,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+4360438,Brandon Aiyuk,Brandon,Aiyuk,,SF,WR,36,142.3,8.37,21,10,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+3925347,Damien Harris,Damien,Harris,,NE,RB,13,201.1,13.41,21,7,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+4241478,DeVonta Smith,DeVonta,Smith,,PHI,WR,29,153.6,9.04,5,9,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+8439,Aaron Rodgers,Aaron,Rodgers,,GB,QB,5,332.8,20.8,22,11,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+14993,Greg Zuerlein,Greg,Zuerlein,,DAL,K,13,134.0,8.38,1,4,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+2577417,Dak Prescott,Dak,Prescott,,DAL,QB,7,320.56,20.04,18,6,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+4243160,Laviska Shenault Jr.,Laviska,Shenault,Jr.,JAX,WR,60,95.5,5.97,8,12,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+-16023,Steelers D/ST,Steelers,D/ST,,PIT,D/ST,16,112.0,6.59,1,3,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+4241401,Trey Sermon,Trey,Sermon,,SF,RB,95,26.8,4.47,8,8,{C9007F8F-9C0C-4245-807F-8F9C0CA245C0},12,Daddy Johnson,Dylan Brian,DADI,False,False
+2979843,Kenyan Drake,Kenyan,Drake,,LV,RB,57,87.5,7.29,4,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+16733,Odell Beckham Jr.,Odell,Beckham,Jr.,LAR,WR,55,107.1,7.65,13,1,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+11122,Matt Prater,Matt,Prater,,ARI,K,8,147.0,8.65,1,2,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+3128429,Courtland Sutton,Courtland,Sutton,,DEN,WR,46,121.24,7.13,7,10,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+4241463,Jerry Jeudy,Jerry,Jeudy,,DEN,WR,89,66.0,6.6,7,7,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3042778,Corey Davis,Corey,Davis,,NYJ,WR,66,88.2,9.8,5,9,{00F8770D-C33E-48D1-B877-0DC33E18D1AA},6,Detroit lions,Tyler Karp,YFT,False,False
+4040715,Jalen Hurts,Jalen,Hurts,,PHI,QB,9,312.16,20.81,5,11,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+15072,Marvin Jones Jr.,Marvin,Jones,Jr.,JAX,WR,34,143.7,8.45,1,4,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+3025433,Mike Davis,Mike,Davis,,ATL,RB,37,116.2,6.84,12,6,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+4362628,Ja'Marr Chase,Ja'Marr,Chase,,CIN,WR,5,264.1,15.54,7,12,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+2330,Tom Brady,Tom,Brady,,TB,QB,3,374.74,22.04,6,3,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+2976316,Michael Thomas,Michael,Thomas,,NO,WR,0,0.0,0.0,7,8,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3912550,Ronald Jones II,Ronald,Jones,II,TB,RB,59,74.2,4.95,3,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+4039359,Darrell Henderson Jr.,Darrell,Henderson,Jr.,LAR,RB,27,148.9,12.41,10,1,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+2576414,Raheem Mostert,Raheem,Mostert,,SF,RB,153,2.0,2.0,9,2,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+4046692,Chase Claypool,Chase,Claypool,,PIT,WR,37,137.1,9.14,7,10,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+4360310,Trevor Lawrence,Trevor,Lawrence,,JAX,QB,23,199.04,11.71,3,7,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+12483,Matthew Stafford,Matthew,Stafford,,LAR,QB,6,329.74,19.4,3,9,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+2975674,Robert Tonyan,Robert,Tonyan,,GB,TE,49,41.4,5.18,9,11,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3045138,Mike Williams,Mike,Williams,,LAC,WR,10,208.6,13.04,4,4,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+3045144,Tyler Boyd,Tyler,Boyd,,CIN,WR,31,150.34,9.4,6,6,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+4036131,Noah Fant,Noah,Fant,,DEN,TE,12,125.0,7.81,6,12,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3121023,Dallas Goedert,Dallas,Goedert,,PHI,TE,10,137.0,9.13,3,3,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+4241475,Henry Ruggs III,Henry,Ruggs,III,None,WR,82,72.5,10.36,6,8,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+-16033,Ravens D/ST,Ravens,D/ST,,BAL,D/ST,26,85.0,5.0,1,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3116164,Mike Gesicki,Mike,Gesicki,,MIA,TE,11,128.5,7.56,2,1,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+4040761,Devin Singletary,Devin,Singletary,,BUF,RB,20,177.8,10.46,8,2,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+-16028,Commanders D/ST,Commanders,D/ST,,WSH,D/ST,22,94.0,5.53,2,10,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+-16025,49ers D/ST,49ers,D/ST,,SF,D/ST,14,118.0,6.94,1,7,,4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+13934,Antonio Brown,Antonio,Brown,,None,WR,58,100.1,14.3,8,9,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+4372016,Jaylen Waddle,Jaylen,Waddle,,MIA,WR,16,193.8,12.11,5,11,{00F8770D-C33E-48D1-B877-0DC33E18D1AA},6,Detroit lions,Tyler Karp,YFT,False,False
+15349,Cole Beasley,Cole,Beasley,,BUF,WR,47,118.3,7.39,2,4,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+-16014,Rams D/ST,Rams,D/ST,,LAR,D/ST,12,121.0,7.12,3,6,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+3115364,Leonard Fournette,Leonard,Fournette,,TB,RB,7,221.1,15.79,4,12,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3115394,DJ Chark Jr.,DJ,Chark,Jr.,JAX,WR,133,30.9,10.3,3,3,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4035687,Michael Pittman Jr.,Michael,Pittman,Jr.,IND,WR,15,194.6,11.45,3,8,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+2473037,Jason Myers,Jason,Myers,,SEA,K,23,98.0,5.76,1,5,{8F5AFAAD-FE50-47AC-A8D8-7F827E8D4152},10,Mayer's a Bitch,Sam Schlechter,MAB,False,False
+3054212,Jonnu Smith,Jonnu,Smith,,NE,TE,34,53.4,3.56,2,1,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+16790,Jarvis Landry,Jarvis,Landry,,CLE,WR,56,107.0,8.92,3,2,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+3045147,James Conner,James,Conner,,ARI,RB,5,239.2,15.95,6,10,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+13229,Rob Gronkowski,Rob,Gronkowski,,TB,TE,5,143.7,11.97,1,7,,4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+2508176,David Johnson,David,Johnson,,HOU,RB,63,65.3,5.02,2,9,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+3916430,Nyheim Hines,Nyheim,Hines,,IND,RB,53,92.6,5.45,3,11,{E931BF28-2E51-4037-820F-DA521D9F3A08},12,Daddy Johnson,Dylan Brian,DADI,False,False
+2572861,J.D. McKissic,J.D.,McKissic,,WSH,RB,44,106.4,9.67,1,4,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+4048244,Alexander Mattison,Alexander,Mattison,,MIN,RB,38,109.9,6.87,3,6,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+2576434,Melvin Gordon III,Melvin,Gordon,III,DEN,RB,18,181.1,11.32,2,12,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4239934,AJ Dillon,AJ,Dillon,,GB,RB,23,168.6,9.92,4,3,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+3916148,Tony Pollard,Tony,Pollard,,DAL,RB,28,143.1,9.54,2,8,{7F7309CD-9A55-4064-B309-CD9A55606472},5,Michael Parish,Eric Jared,NNV,False,False
+2980453,Jamaal Williams,Jamaal,Williams,,DET,RB,43,106.8,8.22,2,5,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+14924,T.Y. Hilton,T.Y.,Hilton,,IND,WR,96,62.6,6.26,1,1,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+14876,Ryan Tannehill,Ryan,Tannehill,,TEN,QB,12,268.36,15.79,1,2,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+2573401,Tyler Higbee,Tyler,Higbee,,LAR,TE,14,116.5,7.77,1,10,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+4035676,Zack Moss,Zack,Moss,,BUF,RB,52,93.7,7.21,1,7,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+4241372,Marquise Brown,Marquise,Brown,,BAL,WR,23,180.8,11.3,5,9,{650FE697-2B53-4202-9590-36F1723E0BE9},3,Warm Pink Center,Adam Oxman,OX,False,False
+-16011,Colts D/ST,Colts,D/ST,,IND,D/ST,7,139.0,8.18,1,11,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+3052876,William Fuller V,William,Fuller,V,MIA,WR,185,6.6,3.3,2,4,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+3121427,Curtis Samuel,Curtis,Samuel,,WSH,WR,184,6.8,1.36,1,6,{C1F1EC3B-3BAB-402A-AB27-1CACA795BE22},1,7th Floor Jew,Jeremy Kaplan,KAPL,False,False
+4035170,Marquez Callaway,Marquez,Callaway,,NO,WR,42,128.8,7.58,1,12,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+4240657,Michael Carter,Michael,Carter,,NYJ,RB,29,136.4,9.74,1,3,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+3121410,Parris Campbell,Parris,Campbell,,IND,WR,138,27.2,4.53,1,8,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+4036348,Michael Gallup,Michael,Gallup,,DAL,WR,79,74.0,8.22,1,5,,11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+3052587,Baker Mayfield,Baker,Mayfield,,CLE,QB,26,180.9,12.92,1,1,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+3895827,Ty'Son Williams,Ty'Son,Williams,,BAL,RB,87,37.4,4.16,1,2,{00F8770D-C33E-48D1-B877-0DC33E18D1AA},6,Detroit lions,Tyler Karp,YFT,False,False
+3916433,Jakobi Meyers,Jakobi,Meyers,,NE,WR,33,144.8,9.05,1,10,,3,Warm Pink Center,Adam Oxman,OX,False,False
+4040655,Darnell Mooney,Darnell,Mooney,,CHI,WR,24,179.2,10.54,1,7,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+16913,James White,James,White,,NE,RB,97,25.2,8.4,1,9,,5,Michael Parish,Eric Jared,NNV,False,False
+15920,Latavius Murray,Latavius,Murray,,BAL,RB,49,98.6,7.04,1,11,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3043275,Austin Hooper,Austin,Hooper,,CLE,TE,24,73.5,4.59,1,4,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+2570986,Malcolm Brown,Malcolm,Brown,,MIA,RB,103,21.0,3.5,1,6,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+-16017,Patriots D/ST,Patriots,D/ST,,NE,D/ST,2,159.0,9.35,1,12,{26724825-FDFF-4FEE-9F05-5145ABFCC6CF},11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4569173,Rhamondre Stevenson,Rhamondre,Stevenson,,NE,RB,41,107.9,8.99,1,3,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+3115378,Russell Gage,Russell,Gage,,ATL,WR,39,130.0,10.0,1,8,,6,Detroit lions,Tyler Karp,YFT,False,False
+3052117,Phillip Lindsay,Phillip,Lindsay,,MIA,RB,81,43.4,3.1,1,5,{20B5507C-5DCD-43EF-B550-7C5DCD83EF58},8,Puka and Rally,Zach Eitan,Boot,False,False
+4241985,J.K. Dobbins,J.K.,Dobbins,,BAL,RB,0,0.0,0.0,1,1,,5,Michael Parish,Eric Jared,NNV,False,False
+4240021,Cam Akers,Cam,Akers,,LAR,RB,148,2.8,2.8,1,2,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+3915511,Joe Burrow,Joe,Burrow,,CIN,QB,8,314.24,19.64,1,10,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+2576623,DeVante Parker,DeVante,Parker,,MIA,WR,69,83.5,8.35,1,7,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+3917232,Tyler Bass,Tyler,Bass,,BUF,K,11,139.0,8.18,1,9,,11,Best Balls In The League,Brandon Mayer,MAYE,False,False
+4241802,Jalen Reagor,Jalen,Reagor,,PHI,WR,97,61.6,3.62,1,11,,4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+-16005,Browns D/ST,Browns,D/ST,,CLE,D/ST,20,105.0,6.18,1,4,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+16777,Carlos Hyde,Carlos,Hyde,,JAX,RB,84,39.8,3.62,1,6,,5,Michael Parish,Eric Jared,NNV,False,False
+4035004,Mecole Hardman,Mecole,Hardman,,KC,WR,51,111.4,6.55,1,12,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+-16007,Broncos D/ST,Broncos,D/ST,,DEN,D/ST,13,119.0,7.0,1,3,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+5536,Ben Roethlisberger,Ben,Roethlisberger,,PIT,QB,21,218.1,13.63,1,8,{1A84C8E9-256E-4435-89B4-DF8B72E2AE37},9,The Driving Crooners,Brian Fisher,Fish,False,False
+2969939,Jameis Winston,Jameis,Winston,,NO,QB,33,117.4,16.77,1,5,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+3915165,Rodrigo Blankenship,Rodrigo,Blankenship,,IND,K,33,42.0,8.4,1,1,{00F8770D-C33E-48D1-B877-0DC33E18D1AA},6,Detroit lions,Tyler Karp,YFT,False,False
+4241416,Chuba Hubbard,Chuba,Hubbard,,CAR,RB,33,125.1,7.82,1,2,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+12537,Jared Cook,Jared,Cook,,LAC,TE,16,108.4,6.78,1,10,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+4243537,Gabriel Davis,Gabriel,Davis,,BUF,WR,53,108.4,7.23,1,7,,9,The Driving Crooners,Brian Fisher,Fish,False,False
+16339,Brandon McManus,Brandon,McManus,,DEN,K,17,124.0,7.29,1,9,{C5575E3E-3B10-4280-975E-3E3B10A280F8},4,Patrick Mahomes Sucks,David Behmoaras,SUCK,False,False
+4362887,Justin Fields,Justin,Fields,,CHI,QB,31,126.8,10.57,1,11,{DFABD0AD-233C-4F2A-8004-BD66CEFCB7E5},6,Detroit lions,Tyler Karp,YFT,False,False
+13295,Emmanuel Sanders,Emmanuel,Sanders,,BUF,WR,52,110.7,7.91,1,4,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+4372485,Rondale Moore,Rondale,Moore,,ARI,WR,71,82.1,5.86,1,6,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+4362630,Terrace Marshall Jr.,Terrace,Marshall,Jr.,CAR,WR,142,24.3,2.02,1,12,{00F8770D-C33E-48D1-B877-0DC33E18D1AA},6,Detroit lions,Tyler Karp,YFT,False,False
+4241479,Tua Tagovailoa,Tua,Tagovailoa,,MIA,QB,25,180.92,13.92,1,3,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
+9354,Robbie Gould,Robbie,Gould,,SF,K,21,109.0,8.38,1,8,{BA8E5897-0DA3-432F-AEFE-64618992A126},7,The AndersonAccount,Alex Loewenstein,AAI,False,False
+-16015,Dolphins D/ST,Dolphins,D/ST,,MIA,D/ST,3,153.0,9.0,1,5,{E1D2D872-92EE-4849-93C2-3317DF3609F0},2,Tyreek's Children,Ben Eilender,BE,False,False
