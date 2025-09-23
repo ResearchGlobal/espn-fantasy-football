@@ -1,6 +1,5 @@
 import json
-import csv
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 from espn_api.football import Team
 from league.constant import teams
